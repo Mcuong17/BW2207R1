@@ -64,8 +64,14 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
-   
 }
+
+/* .card-img:hover {
+    width: 20%;
+    height: 20%;
+    border-radius: unset;
+    border: none;
+} */
 
 .card-name {
     padding: 8px 0;
@@ -85,16 +91,20 @@ body {
 .card-info {
     font-size: 16px;
     color: rgb(182, 138, 138);
-    line-height: 1.5;
+    line-height: 1.8;
     font-weight: 500;
     padding-bottom: 8px;
     letter-spacing: 1px;
+    margin: 0 278px;
+}
+
+.card-info p {
+    text-align: justify;
 }
 
 .col-1 {
     width: 360px;
     min-height: 300px;
-
     display: inline-block;
     padding: 8px;
 }
@@ -142,7 +152,7 @@ body {
 }
 
 .card-social a {
-    color: #000;
+    color: #22c1c3;
     padding: 0 8px;
     font-size: 24px;
     text-decoration: none;
@@ -162,6 +172,7 @@ body {
     color: #fff;
     font-size: 16px;
     text-decoration: none;
+    text-transform: uppercase;
     border-radius: 8px;
 }
 
