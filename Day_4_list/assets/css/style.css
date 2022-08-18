@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#main {
+    width: 450px;
+    margin: 50px 200px;
+    background-color: #FFA585;
+}
+
+.header {
+    padding: 4px 0;
+    color: #0061ff;
+}
+
+.nav-bar {
+    margin: 16px 8px;
+   
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 4px 0;
+    color: #45caff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    padding: 8px 8px;
+}
+
+.music-content {
+   
+
+}
+
+
+.music-content h3,
+audio {
+    margin-bottom: 8px;
+}
