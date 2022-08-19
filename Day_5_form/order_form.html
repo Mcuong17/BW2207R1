@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Lucida Grande, Lucida Sans Unicode, Tahoma, sans-serif;
+        }
+
+        .left80{
+            margin-left: 80px;
+        }
+
+        .left13 {
+            margin-left: 13px;
+        }
+
+        .right40 {
+            margin-right: 40px;
+        }
+
+        .right14 {
+            margin-right: 14px;
+        }
+
+        .right20 {
+            margin-right: 20px;
+        }
+        .mt-16 {
+            margin-top: 16px;
+        }
+
+        .h-50 {
+            height: 50px;
+        }
+
+        .like {
+            margin: 0 auto;
+            width: 50%;
+            background-color: antiquewhite;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            background-color: orange;
+            color: #fff;
+            text-align: center;
+        }
+
+        p {
+            color: blue;
+            display: inline-block;
+        }
+
+        .form-main {
+            padding: 0 16px 16px;
+        }
+        input.email {
+        margin-left: 52px;
+        }
+
+        input.name {
+        margin-left: 16px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <form action="" class="like">
+        <h2>Sở thích của bạn</h2>
+        <div class="form-main" >
+            <p>Your name</p>  <input type="text" class="name " name="yourname"> <br>
+            <p>Email</p> <input type="email" class="email" name="email"> <br>
+            <p>Hobby</p> 
+            <input type="checkbox" class="like-input left13" name="hobby"> Thể thao
+            <input type="checkbox" class="like-input" name="hobby"> Âm nhạc
+            <input type="checkbox" class="like-input" name="hobby"> Đọc sách <br>
+            <input type="checkbox" class="like-input left80" name="hobby"> Lướt web
+            <input type="checkbox" class="like-input" name="hobby"> Chơi game
+            <input type="checkbox" class="like-input" name="hobby"> Điện ảnh <br>
+            <input type="checkbox" class="like-input left80" name="hobby"> Du lịch <br>
+    
+            <button class="left80 mt-16">Submit Form</button>
+            <button>Reset Form</button>
+
+        </div>
+    </form>
+
+    <form action="" class="like">
+        <h2 class="like-heading" style="padding-bottom: 16px; background-color: rgb(27, 105, 206);">Đăng ký học viên</h2>
+        <div class="form-main">
+           <label for="" class="name right40">Họ và tên</label>
+            <input type="text"> <br>
+            <label for="" class="date right14">Date of birth</label>
+            <input type="text"> <br>
+            <label for="" class="male" style="margin-right: 40px;">Giới tính</label>
+            <input type="radio"> Nam
+            <input type="radio"> Nữ <br>
+            <label for="" class="address">Địa chỉ</label>
+            <input type="text" class="h-50" style="margin-left: 60px;" ><br>
+            <lable class="class" style="margin-right: 82px;">Lớp</lable>
+            <select name="" id=""> 
+                <option value=""> - Chọn lớp - </option>
+                <option value="">Lớp 1A</option>
+                <option value="">Lớp 2B</option>
+                <option value="">Lớp 3C</option>
+            </select> <br>
+            <label for="" style="margin-right: 70px;">Email</label>
+            <input type="email"><br>
+            <label for="" style="margin-right: 32px;">Điện thoại</label>
+            <input type="text">
+            <br>
+            <button class="left80 mt-16">Submit Form</button>
+            <button>Reset Form</button>
+        </div>
+
+       
+    </form>
+</body>
+</html>
