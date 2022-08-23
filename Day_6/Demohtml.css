@@ -7,7 +7,7 @@ table {
     width: 100%;   /* Độ rộng của bảng bằng 100% độ rộng của thẻ chứa nó */
 }
 
-tr:nth-child(even){background-color: #f2f2f2} /* những thẻ con của thẻ tr ở vị trí lẻ sẽ được set màu nền là màu f2f2f2 */
+tr:nth-child(even){background-color: #f2f2f2} /* những thẻ con của thẻ tr ở vị trí chẵn sẽ được set màu nền là màu f2f2f2 */
 
 th {
     height: 50px; /* Chiều cao của thẻ th bằng 50px */
