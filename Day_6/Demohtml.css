@@ -1,0 +1,28 @@
+table, th, td {
+    border: 1px solid black; /* đường viền 1px, nét liền màu đen */
+}
+
+table {
+    border-collapse: collapse; /* thiết lập các đường viền của bảng nhập vào thành một đường viền duy nhất */
+    width: 100%;   /* Độ rộng của bảng bằng 100% độ rộng của thẻ chứa nó */
+}
+
+tr:nth-child(even){background-color: #f2f2f2} /* những thẻ con của thẻ tr ở vị trí lẻ sẽ được set màu nền là màu f2f2f2 */
+
+th {
+    height: 50px; /* Chiều cao của thẻ th bằng 50px */
+    text-align: left;   /* Căn nội dung bên trong thẻ th lề bên trái */
+    background-color: #4CAF50; /* Đổ màu nền cho thẻ th */
+    color: white; /* màu chữ trong th là màu trắng */
+}
+
+
+td {
+    vertical-align: bottom; /* Căn chỉnh nội dung bên trong th theo chiều dọc với các value:
+                                vertical-align: top: căn lên trên
+                                vertical-align: bottom: căn xuống dưới
+                                vertical-align: middle: căn giữa(default)
+                                */
+    
+    padding: 15px; /*  khoảng đệm: điều chỉnh khoảng cách giữa đường viền và nội dung bên trong một bảng */
+}
