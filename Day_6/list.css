@@ -1,0 +1,38 @@
+ul.a {
+    list-style-type: circle; /* Những thẻ ul có class a sẽ có kiểu đánh dấu đầu dòng là hình tròn */
+}
+
+ul.b {
+    list-style-type: square; /* Những thẻ ul có class b sẽ có kiểu đánh dấu đầu dòng là hình vuông */
+}
+
+ol.c {
+    list-style-type: upper-roman; /* Những thẻ ul có class c sẽ có kiểu đánh dấu đầu dòng là số la mã viết hoa */
+}
+
+ol.d {
+    list-style-type: lower-alpha;/* Những thẻ ul có class d sẽ có kiểu đánh dấu đầu dòng là chữ theo alpha b viết thường*/
+}
+
+ul {
+    list-style-image: url('http://agilearn.vn/draftfile.php/263/user/draft/510120718/bullet_red%20_2.png'); /* Thẻ ul này sẽ có kiểu đánh dấu đầu dòng là ảnh phụ thuộc theo url truyền vào */
+    list-style: square inside url("http://agilearn.vn/draftfile.php/263/user/draft/510120718/bullet_red%20_2.png"); /* Kiểu viết gộp thuộc tính list style type theo thứ tự là: kiểu dáng - vị trí - hình ảnh(nếu có), 
+                                                                                                                        trong dòng này là: kiểu vuông nội dung bên trong, có ảnh là url     */
+}
+
+ul.a {list-style-position:inside;} /* thẻ ul có class là a sẽ có vị trí của kiểu đánh dấu là nằm ở trong dòng của nội dung */
+ul.b {list-style-position:outside;} /* thẻ ul có class là b sẽ có vị trí của kiểu đánh dấu là nằm ở ngoài dòng của nội dung */
+
+ol {
+    background: #ff9999; /* màu nền cho list */
+    padding: 20px; /* Khoảng cách từ nội dung đến đường viền là 20px*/
+}
+
+ol li {
+    margin-left: 35px; /* Khoảng cách từ viền ngoài so với thẻ chứa nó là 35px*/
+}
+
+ul li {
+    
+    margin: 5px; /* Khoảng cách đều 4 hướng từ viền ngoài so với thẻ chứa nó là 5px */
+}
